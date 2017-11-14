@@ -12,11 +12,11 @@
     <PackageTags>hubspot;</PackageTags>
     <PackageProjectUrl>https://github.com/clinia/hupspot-dotnet</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/clinia/hupspot-dotnet/master/LICENSE</PackageLicenseUrl>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/clinia/hupspot-dotnet</RepositoryUrl>
     <PackageId>HubSpot</PackageId>
     <Company>Clinia</Company>
+    <PackOnBuild>true</PackOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
