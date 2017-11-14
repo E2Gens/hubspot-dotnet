@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <TargetFrameworks>netstandard1.6;net46</TargetFrameworks>
+    <Version>0.0.1</Version>
+    <AssemblyName>HubSpot</AssemblyName>
+    <RootNamespace>HubSpot</RootNamespace>
+    <Title>HubSpot</Title>
+    <Authors>Etienne Soulard-Geoffrion</Authors>
+    <Description>A dotnet (core) HubSpot rest api client with support for custom property mapping</Description>
+    <PackageTags>hubspot;</PackageTags>
+    <PackageProjectUrl>https://github.com/clinia/hupspot-dotnet</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/clinia/hupspot-dotnet/master/LICENSE</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/clinia/hupspot-dotnet</RepositoryUrl>
+    <PackageId>HubSpot</PackageId>
+    <Company>Clinia</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="flurl" Version="2.5.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="RapidCore" Version="0.19.0" />
+  </ItemGroup>
+</Project>
