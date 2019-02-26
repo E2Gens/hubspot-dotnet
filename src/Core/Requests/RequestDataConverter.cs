@@ -30,7 +30,7 @@ namespace HubSpot.Core.Requests
             dynamic mapped = new ExpandoObject();
 
             mapped.Properties = new List<HubspotDataEntityProp>();
-;
+
             _logger.LogDebug("Use nameValue mapping?: {0}", entity.IsNameValue);
 
             var allProps = entity.GetType().GetProperties();
